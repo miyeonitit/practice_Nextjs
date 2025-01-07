@@ -4,6 +4,6 @@ export default function Page() {
   const router = useRouter();
   const { id } = router.query;
 
-  // router page
+  // optional catch all segment
   return <div>Dinamic : {id}</div>;
 }
